@@ -12,14 +12,14 @@
   
 -View: Cabeçalho -> para o usúario saber o que tem no site
 Imagens -> deixar o site mais visualmente bonito, botão -> para que p usuário consiga interigir com o site
-Texto -> para usuário saber o objetivo do site
-Perguntas -> fomulário com as perguntas
-Enviar -> para enviar as perguntas para banco de dados
-Respostas -> o que o usuário for responder no questionário
-Email -> identificação do usuário
-Senha -> senha da conta do ADM
-Tabela-> para ver os dados
-Dados -> respostas dos usuários 
+-Texto -> para usuário saber o objetivo do site
+-Perguntas -> fomulário com as perguntas
+-Enviar -> para enviar as perguntas para banco de dados
+-Respostas -> o que o usuário for responder no questionário
+-Email -> identificação do usuário
+-Senha -> senha da conta do ADM
+-Tabela-> para ver os dados
+-Dados -> respostas dos usuários 
 
 
 ojforfoerj0grn
