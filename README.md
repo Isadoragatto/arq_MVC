@@ -9,7 +9,7 @@
 - Procurar -> serve para busca deinformações no banco de dados
 - O controladores e o views interagem da seguinte forma: o usuário vizualiza o que aparece da viwe e a partir dai toma uma decisão de qual botão selecionar. Após selecionar um botão o controller é ativado recebendo a solicitação, processa-a e toma decisões com base nela, interagindo com o Modelo para buscar ou atualizar dados. Assim o controlador seleciona a View apropriada para exibir os resultados e passa os dados necessários para ela e por fim a view aparece uma nova informação para o usuário
 
-- 
+  
 -View: Cabeçalho -> para o usúario saber o que tem no site
 Imagens -> deixar o site mais visualmente bonito, botão -> para que p usuário consiga interigir com o site
 Texto -> para usuário saber o objetivo do site
