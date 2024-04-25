@@ -16,6 +16,7 @@ Modelos (Models)
 - Autenticar -> serve para autenticar a identidade do usuário que estiver fazendo o login
 - Procurar -> serve para busca deinformações no banco de dados
 - O controladores e o views interagem da seguinte forma: o usuário vizualiza o que aparece da viwe e a partir dai toma uma decisão de qual botão selecionar. Após selecionar um botão o controller é ativado recebendo a solicitação, processa-a e toma decisões com base nela, interagindo com o Modelo para buscar ou atualizar dados. Assim o controlador seleciona a View apropriada para exibir os resultados e passa os dados necessários para ela e por fim a view aparece uma nova informação para o usuário
+- No controller, o que entra em "listar" são todas as perguntas listas para que p usuário passa escrever e o que sai são todas as suas respostas. Em "autenticar" entra os emails e senhas que o usuário tem e saí a resposta se eles estão corretos ou não. Em "procurar" entra todos as respostas dos usuários do formulário e saí todos os dados
 
   
 - View:
@@ -30,5 +31,10 @@ Imagens -> deixar o site mais visualmente bonito, botão -> para que p usuário 
 - Tabela-> para ver os dados
 - Dados -> respostas dos usuários 
 
+Infraestrutura:
+- Cliente é o usuário final da aplicação, ele que interege com o View por meio de um navegador
+- Servidor é reponsável por atender às solicitações do cliente e fornece as respostas, ele que tem a lógica do controller que processa a solicitação do cliente
+- Banco de dados é onde os dados da aplicação são armazenamedos, ele contém o modelo de dados (Model) que define o comprtamento dos dados da aplicação
 
-ojforfoerj0grn
+Justifique
+_ A arquitetura MCV organiza e estrutura uma aplicação para assim facilitar a manutenção e evolução do projeto
