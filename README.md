@@ -1,7 +1,15 @@
 # arquitetura_MVC
 - Nome do projeto: Abandono zero
 - Descrição: Criar um site para que possamos colocar um formulário onde o objetivo da INSPA é colotar dados para entender os motivos para o comportamento de adoção, compra e/ou abandono dos animais de estimação> A partir disso, propor ações para o controle e redução desse problema.
+- Arquitetura: MVC (Model-View-Controller)
+- Ferramenta de Diagrama: draw.io
 
+Modelos (Models) 
+- Em forms temos todas as informações das respostas dos usuários, como Id, nome, idade...
+- Login temos os dados do login do usuário da senha e email
+- A relação entre eles é que esses dados são gerenciados e definem como serão armazenados e recuperados
+
+  
 - Controlados:
 -  Lista -> Pegar todas as perguntas e fornecer para o usuário. 
 - Gravar ->  salvar informações enviadas pelo usuário em um banco de dados
