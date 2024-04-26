@@ -37,4 +37,4 @@ Infraestrutura:
 - Banco de dados é onde os dados da aplicação são armazenamedos, ele contém o modelo de dados (Model) que define o comprtamento dos dados da aplicação
 
 Justifique
-_ A arquitetura MCV organiza e estrutura uma aplicação para assim facilitar a manutenção e evolução do projeto
+- A arquitetura MCV separa as responsabilidades de uma aplicação em 3 componentes Model-View-Controller, além organiza e estrutura uma aplicação para assim facilitar a manutenção e evolução do projeto. Quando falamos sobre escalabilidade nos referimos a a separação entre Model, View e o Controller que essas partes sejam escaladas independentemente. Na manutenção é quando precisamos arrumar o código, mas com a separação específica para casa aplicação podem alterar sem afetar outras partes, assim tornando o código maus modular e fácil de entender. Por fim temos a testabilidade que com a arquitetrua MVC pelos componentes serem separados, podem ser testados de froma independente e os modelos pode ser testados para garantir que funcionem conforme o esperado. Com essas implicações o MVC se torna uma ótima ferramenta para desenvolvimento de aplicações web. 
